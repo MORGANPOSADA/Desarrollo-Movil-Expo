@@ -1,9 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { Button } from '@rneui/themed';
-import { initializeApp } from "firebase/app";
+import { StyleSheet } from 'react-native';
 import Navigation from './config/navigation/Navigation';
-
+import {app}  from './config/utils/firebase';   //importacion de firebase 
 export default function App() {
   return (
     <Navigation/>
